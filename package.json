@@ -1,0 +1,32 @@
+{
+  "name": "interactive-map-widget-sdk",
+  "version": "1.0.2",
+  "description": "A JavaScript SDK for embedding and interacting with Mapbox GL maps",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "test/jest.setup.js"
+  },
+  "dependencies": {
+    "mapbox-gl": "^3.13.0",
+    "mapbox-gl-widget-sdk-bitsclan": "^1.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "jest": "^26.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-string": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waqarbitsclan/interactive-map-widget-sdk"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waqarbitsclan/interactive-map-widget-sdk"
+  },
+  "homepage": "https://github.com/waqarbitsclan/interactive-map-widget-sdk#readme"
+}
